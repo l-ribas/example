@@ -1,0 +1,166 @@
+h1{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 75px;
+	color: #F5F1E3;
+	text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+	text-align: bottom left;
+	margin: 5px;
+	padding: 0px;
+}
+
+p{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: 0px;
+	color: #F6F4F3;
+	text-shadow: 1px 0px 0px rgba(0,0,0,0.5);
+	text-align: left;
+	margin: 5px;
+	padding: 0px;
+}
+
+#banner{
+	margin: 20px 90px;
+	padding: 350px 40px 45px;
+	background-image: url('https://images.unsplash.com/photo-1518081692809-d68867210ca9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1185&q=80');
+	background-size: cover;
+	background-position: bottom;
+}
+
+h2{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 35px;
+	font-weight: 95px;
+	color: #035E7B;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+h3{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: 95;
+	color: #008DD5;
+	text-align: center;
+	margin: 0px 10px;
+	padding: 0px 10px;	
+}
+
+.container p{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 25px;
+	color: black;
+	text-align: left;
+	text-shadow: none;
+	margin: 2px 10px;
+	padding: 5px 10px;
+}
+
+.container{
+	margin: auto;
+	padding: 20px;
+	align-items: stretch;
+}
+
+.btn-gradient {
+  font-size: 15px;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: auto;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#008DD5, #008DD5);
+  transition: background 1s ease;
+  border: 1px solid #008DD5;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(#008DD5, #23F0C7);
+  color: white;
+}
+
+.card p{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 15px;
+	color: black;
+	text-align: left;
+	margin: 2px 10px;
+	padding: 2px;
+}
+
+.card{
+	background-size: auto;
+	background-position: center;
+	padding: 15px 10px;
+	justify-content: auto;
+	align-items: center;
+	font-weight: bold;
+	border-radius: 5px;
+	box-shadow: 5px 5px 0px rgba(178,236,225,0.5);
+}
+
+.card-deck{
+	background-size: cover;
+	background-position: center;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 1; 
+	flex-grow: 1;
+}
+
+.card-body{
+	background-size: cover;
+	background-position: center;
+	padding: 10px 0px; 
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+}
+
+.span{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: 0px;
+}
+
+.bg-form{
+	background-size: cover;
+	background-position: center; 
+	background-color: #F7FAFA;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	border-radius: 5px;
+	box-shadow: 5px 5px 0px rgba(178,236,225,0.5)
+}
+
+.footer{
+	background-size: cover;
+	background-position: center; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	margin: 20px;
+}
+.footer p{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: 0px;
+	color: #035E7B;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0);
+	padding: 0px;
+	justify-content: center;
+
+}
+.footer a{
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: 0px;
+	color: #035E7B;
+	text-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+	padding: 0px;
+	justify-content: center;
+	align-items: center;
+}
